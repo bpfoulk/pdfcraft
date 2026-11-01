@@ -605,3 +605,7 @@ A center `move` can include `before` (panel ID or null to append) for tab order.
 The equivalent `{"action": ...}` form accepts a serialized shared docking action;
 this is also the form emitted by the renderer. Protected-canvas and app-specific panel
 rules apply equally to both forms.
+
+## Windows development with Visual Studio 2026
+
+Open [PdfCraft.slnx](PdfCraft.slnx), choose **Debug | x64** and press **F5**. The project builds the Rust desktop app with Cargo and launches the native debugger. See [Visual Studio setup](docs/visual-studio.md) for prerequisites, output paths and options.
